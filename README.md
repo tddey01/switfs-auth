@@ -1,26 +1,3 @@
-<p align="center">
-  <a href="https://damocles.venus-fil.io/" title="Damocles Docs">
-    <img src="https://user-images.githubusercontent.com/1591330/205581370-d467d776-60a4-4b37-b25a-58fa82adb156.png" alt="Sophon Logo" width="128" />
-  </a>
-</p>
-
-
-<h1 align="center">Sophon Auth</h1>
-
-<p align="center">
- <a href="https://github.com/tddey01/switfs-auth/actions"><img src="https://github.com/tddey01/switfs-auth/actions/workflows/build_upload.yml/badge.svg"/></a>
- <a href="https://codecov.io/gh/ipfs-force-community/sophon-auth"><img src="https://codecov.io/gh/ipfs-force-community/sophon-auth/branch/master/graph/badge.svg?token=J5QWYWkgHT"/></a>
- <a href="https://goreportcard.com/report/github.com/tddey01/switfs-auth"><img src="https://goreportcard.com/badge/github.com/tddey01/switfs-auth"/></a>
- <a href="https://github.com/tddey01/switfs-auth/tags"><img src="https://img.shields.io/github/v/tag/ipfs-force-community/sophon-auth"/></a>
-  <br>
-</p>
-
-Unified authorization service for Venus cluster 
-- Permission Validation
-- Log collection (Provide influxdb storage solution)
-- RESTful API
-
-Use [Venus Issues](https://github.com/filecoin-project/venus/issues) for reporting issues about this repository.
 
 ---
 # Get Started
