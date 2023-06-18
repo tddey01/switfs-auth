@@ -1,0 +1,7 @@
+.idea
+.vscode
+sophon-auth
+coverage.*
+.vscode
+dockerfile
+.idea/

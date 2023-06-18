@@ -1,0 +1,27 @@
+Listen = "127.0.0.1:8989"
+ReadTimeout = "1m"
+WriteTimeout = "1m"
+IdleTimeout = "1m"
+
+[db]
+type = "badger"
+DSN = "root:111111@(127.0.0.1:3306)/auth_server?parseTime=true&loc=Local&charset=utf8mb4&collation=utf8mb4_unicode_ci&readTimeout=10s&writeTimeout=10s"
+
+# conns 1500 concurrent
+maxOpenConns = 64
+maxIdleConns = 128
+maxLifeTime = "120s"
+maxIdleTime = "30s"
+
+[log]
+logLevel = 6
+type = 1
+hookSwitch = true
+[log.influxdb]
+serverURL = "http://192.168.1.141:8086"
+authToken = "jcomkQ-dVBRoCrKSEWMuYxA4COj_EfyCvwgPW5Ql-tT-cCizIjE24rPJQNx8Kkqzz4gCW8YNFq0wcDaHJOcGMQ=="
+org = "venus-oauth"
+bucket = "bkt2"
+measurement = "verify"
+flushInterval = "30s"
+batchSize = 100
